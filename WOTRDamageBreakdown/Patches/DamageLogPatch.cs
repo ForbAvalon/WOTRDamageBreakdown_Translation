@@ -25,7 +25,7 @@ namespace WOTRDamageBreakdown.Patches
             if (trueTotal != 0 && !isZeroDice)
             {
                 sb.AppendLine();
-                sb.AppendLine($"<b>Damage bonus: {UIConsts.GetValueWithSign(trueTotal)}</b>");
+                sb.AppendLine($"<b>伤害加值：{UIConsts.GetValueWithSign(trueTotal)}</b>");
                 sb.AppendDamageModifiersBreakdown(rule, totalBonus, trueTotal);
             }
         }
