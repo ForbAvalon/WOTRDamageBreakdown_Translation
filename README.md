@@ -4,5 +4,4 @@
 
 # 致谢
 
-感谢 abias1122 为我们创建的这个MOD\n
-感谢 CabbageCrow 创建的 AssemblyPublicizer
+感谢 abias1122 为我们创建的这个MOD,感谢 CabbageCrow 创建的 AssemblyPublicizer
