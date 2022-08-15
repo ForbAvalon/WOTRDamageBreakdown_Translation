@@ -100,6 +100,13 @@ namespace WOTRDamageBreakdown.Extensions
                     {
                         source = fact?.GetName();
                     }
+                    
+                    if (source =="Strength")
+                        source = "力量";
+                    else if (source =="Dexterity")
+                        source = "敏捷";
+                    else if (source =="Other")
+                        source = "其他";
 
                     sb.AppendBonus(modifiers[i].Value, source, modifiers[i].Descriptor);
                 }
