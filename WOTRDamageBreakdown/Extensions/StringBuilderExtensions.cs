@@ -107,6 +107,8 @@ namespace WOTRDamageBreakdown.Extensions
                         source = "敏捷";
                     else if (source =="Other")
                         source = "其他";
+                    else if (source == "Two Handed(Fighter Weapon Training)")
+                        source = "武器训练";
 
                     sb.AppendBonus(modifiers[i].Value, source, modifiers[i].Descriptor);
                 }
