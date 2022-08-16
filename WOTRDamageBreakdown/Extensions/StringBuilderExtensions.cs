@@ -101,14 +101,13 @@ namespace WOTRDamageBreakdown.Extensions
                         source = fact?.GetName();
                     }
                     
-                    char *kw = "Weapon Training";
                     if (source =="Strength")
                         source = "力量";
                     else if (source =="Dexterity")
                         source = "敏捷";
                     else if (source =="Other")
                         source = "其他";
-                    else if (strstr(source,kw))
+                    else if (source.Contains("Weapon Training"))
                         source = "武器训练";
 
                     sb.AppendBonus(modifiers[i].Value, source, modifiers[i].Descriptor);
