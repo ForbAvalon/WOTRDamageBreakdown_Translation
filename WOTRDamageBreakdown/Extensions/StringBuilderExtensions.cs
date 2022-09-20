@@ -110,7 +110,7 @@ namespace WOTRDamageBreakdown.Extensions
                     else if (source.Contains("Weapon Training"))
                         source = "武器训练";
                     else if (source.Contains("Weapon Specialization"))
-                        source = source.Replace("Weapon Specialization","武器专精")
+                        source = source.Replace("Weapon Specialization","武器专精");
 
                     sb.AppendBonus(modifiers[i].Value, source, modifiers[i].Descriptor);
                 }
